@@ -1,0 +1,19 @@
+http://api.pwrt.gq, https://api.pwrt.gq {
+	root api/
+	errors api.log
+	git https://github.com/pwrtelegram/pwrtelegram {
+		interval 60
+	}
+	cors
+	gzip
+	tls admin@pwrt.gq {
+		protocols tls1.0 tls1.2
+	}
+	rewrite {
+		to {path} /index.php
+	}
+	fastcgi / unix:/run/php/php7.0-fpm.sock {
+		index index.php
+		read_timeout 200h
+	}
+}

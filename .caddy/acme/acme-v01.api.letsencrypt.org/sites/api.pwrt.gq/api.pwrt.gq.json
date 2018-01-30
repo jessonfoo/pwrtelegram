@@ -1,0 +1,6 @@
+{
+	"domain": "api.pwrt.gq",
+	"certUrl": "https://acme-v01.api.letsencrypt.org/acme/cert/03a08513f50d8db8e9ba96c47c1e76ba11f2",
+	"certStableUrl": "",
+	"accountRef": "https://acme-v01.api.letsencrypt.org/acme/reg/21520616"
+}

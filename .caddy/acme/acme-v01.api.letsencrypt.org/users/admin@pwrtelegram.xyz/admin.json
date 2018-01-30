@@ -1,0 +1,22 @@
+{
+	"Email": "admin@pwrtelegram.xyz",
+	"Registration": {
+		"body": {
+			"resource": "reg",
+			"id": 21520500,
+			"key": {
+				"kty": "EC",
+				"crv": "P-384",
+				"x": "TtDcuYDSL0zy26ihK3gMiLkrmqTBEtmrQi4nLFXjkL4plq6DyiWSEaBrZ_slFjOH",
+				"y": "EhRXz_kAdzqyLA8q9_p7AeiJ0wNKmwxZgUMSbmhpaqEBxgM-tsdUycC1nH0PyEx1"
+			},
+			"contact": [
+				"mailto:admin@pwrtelegram.xyz"
+			],
+			"agreement": "https://letsencrypt.org/documents/LE-SA-v1.1.1-August-1-2016.pdf"
+		},
+		"uri": "https://acme-v01.api.letsencrypt.org/acme/reg/21520500",
+		"new_authzr_uri": "https://acme-v01.api.letsencrypt.org/acme/new-authz",
+		"terms_of_service": "https://letsencrypt.org/documents/LE-SA-v1.1.1-August-1-2016.pdf"
+	}
+}

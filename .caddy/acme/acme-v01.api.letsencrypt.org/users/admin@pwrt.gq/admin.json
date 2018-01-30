@@ -1,0 +1,22 @@
+{
+	"Email": "admin@pwrt.gq",
+	"Registration": {
+		"body": {
+			"resource": "reg",
+			"id": 21520616,
+			"key": {
+				"kty": "EC",
+				"crv": "P-384",
+				"x": "-VWhbaJhlchEI86AAo7TKzCjbrVLpbnOtNLTEbYZR6OM09pdNJ55GR__-9gt0frK",
+				"y": "zA__fLNxoiSTKeqTxdFstbJE0ApX3ozMrH9ywhh5_iTjPrN_AtPHrBd4YoTL2HAL"
+			},
+			"contact": [
+				"mailto:admin@pwrt.gq"
+			],
+			"agreement": "https://letsencrypt.org/documents/LE-SA-v1.1.1-August-1-2016.pdf"
+		},
+		"uri": "https://acme-v01.api.letsencrypt.org/acme/reg/21520616",
+		"new_authzr_uri": "https://acme-v01.api.letsencrypt.org/acme/new-authz",
+		"terms_of_service": "https://letsencrypt.org/documents/LE-SA-v1.1.1-August-1-2016.pdf"
+	}
+}
